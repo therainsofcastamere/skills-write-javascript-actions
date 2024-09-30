@@ -25,5 +25,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '🚀 ${{ steps.get-a-joke.outputs.joke-output }} terminated successfully! Updated mocks should be available in 5-10 minutes! 🌟'
+              body: '🚀 ${{ steps.get-a-joke.outputs.joke-output }} 🌟'
             })
