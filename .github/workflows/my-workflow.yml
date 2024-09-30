@@ -5,6 +5,7 @@ on:
     types: [labeled]
 
 permissions:
+  content: write
   issues: write
 
 jobs:
